@@ -1,0 +1,32 @@
+import React, { FunctionComponent} from "react";
+
+export const UserIcon = () =>
+   (
+    <svg
+      width="25"
+      height="26"
+      viewBox="0 0 22 26"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={`stroke-current h-6 mx-5 text-gray-400 hover:text-blueColor cursor-pointer`}
+    >
+      <path
+        d="M10.8626 14.3425C14.547 14.3425 17.5338 11.3557 17.5338 7.67127C17.5338 3.98683 14.547 1 10.8626 1C7.17812 1 4.19128 3.98683 4.19128 7.67127C4.19128 11.3557 7.17812 14.3425 10.8626 14.3425Z"
+        // stroke="#0B3FA8"
+        strokeWidth="2"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M1.28528 24.4C1.61379 19.3966 5.75806 15.4292 10.8626 15.4292C15.8408 15.4292 19.9345 19.3208 20.4147 24.1726"
+        // stroke="#0B3FA8"
+        strokeWidth="2"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+
+

@@ -1,9 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'ProductSans';
+  src: url('../assets/ProductSans/ProductSansRegular.ttf');
+  /* src: url('../assets/ProductSans/ProductSansItalic.ttf');
+  src: url('../assets/ProductSans/ProductSansBold.ttf'); */
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'ProductSans', Arial, Helvetica, sans-serif;
+    background-color: #f5f9ff;
 }
 
 a {
@@ -24,3 +44,4 @@ a {
     background: black;
   }
 }
+
